@@ -111,7 +111,7 @@ const products = [
         rating: 4.5,
         reviews: 523,
         badge: null,
-        image: "https://images.unsplash.com/photo-1602143303410-7199d123ad6c?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1570831739435-6601aa3fa4fb?w=800&q=80"
     },
     {
         id: 9,
@@ -166,7 +166,7 @@ const products = [
         rating: 4.9,
         reviews: 42,
         badge: "new",
-        image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80"
     },
     {
         id: 14,
@@ -188,7 +188,7 @@ const products = [
         rating: 4.7,
         reviews: 67,
         badge: null,
-        image: "https://images.unsplash.com/photo-1598033129183-c4f50c717658?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=80"
     },
     {
         id: 16,
@@ -199,7 +199,7 @@ const products = [
         rating: 4.6,
         reviews: 89,
         badge: "sale",
-        image: "https://images.unsplash.com/photo-1544816153-0975b779a6cb?w=800&q=80"
+        image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80"
     },
     {
         id: 17,
@@ -222,6 +222,94 @@ const products = [
         reviews: 31,
         badge: null,
         image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80"
+    },
+    {
+        id: 19,
+        name: "Portable Bluetooth Speaker",
+        category: "electronics",
+        price: 79.99,
+        originalPrice: 99.99,
+        rating: 4.6,
+        reviews: 198,
+        badge: "sale",
+        image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&q=80"
+    },
+    {
+        id: 20,
+        name: "Ultra-Slim Laptop Mouse",
+        category: "electronics",
+        price: 59.99,
+        originalPrice: null,
+        rating: 4.7,
+        reviews: 87,
+        badge: "new",
+        image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80"
+    },
+    {
+        id: 21,
+        name: "Slim Fit shoes",
+        category: "clothing",
+        price: 69.99,
+        originalPrice: 89.99,
+        rating: 4.5,
+        reviews: 213,
+        badge: "sale",
+        image: "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=800&q=80"
+    },
+    {
+        id: 22,
+        name: "Wool Blend Winter Scarf",
+        category: "clothing",
+        price: 39.99,
+        originalPrice: null,
+        rating: 4.4,
+        reviews: 56,
+        badge: "new",
+        image: "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&q=80"
+    },
+    {
+        id: 23,
+        name: "Canvas Tote Bag",
+        category: "accessories",
+        price: 119.99,
+        originalPrice: null,
+        rating: 4.8,
+        reviews: 142,
+        badge: null,
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&q=80"
+    },
+    {
+        id: 24,
+        name: "Minimalist Analog Watch",
+        category: "accessories",
+        price: 149.99,
+        originalPrice: 179.99,
+        rating: 4.7,
+        reviews: 201,
+        badge: "sale",
+        image: "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80"
+    },
+    {
+        id: 25,
+        name: "Aromatherapy Candle Set",
+        category: "home",
+        price: 29.99,
+        originalPrice: null,
+        rating: 4.9,
+        reviews: 178,
+        badge: "new",
+        image: "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=800&q=80"
+    },
+    {
+        id: 26,
+        name: "Woven Storage Basket",
+        category: "home",
+        price: 42.99,
+        originalPrice: 54.99,
+        rating: 4.5,
+        reviews: 63,
+        badge: "sale",
+        image: "https://images.unsplash.com/photo-1616627547584-bf28cee262db?w=800&q=80"
     }
 ];
 

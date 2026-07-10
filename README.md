@@ -9,7 +9,7 @@ A responsive e-commerce front-end with product listings, shopping cart functiona
 ## Features
 
 ### Product Listing
-- 18 sample products across 4 categories
+- 26 sample products across 4 categories
 - Product cards with high-quality lifestyle imagery, ratings, prices, and badges
 - Sale/New badges
 - Wishlist toggle with premium "pop" animation
@@ -62,6 +62,9 @@ mini-ecommerce/
 ├── index.html      # Main HTML file
 ├── style.css       # All styles with dark mode support
 ├── script.js       # JavaScript functionality
+├── privacy.html    # Privacy Policy page
+├── terms.html      # Terms of Service page
+├── cookies.html    # Cookie Policy page
 └── README.md       # This file
 ```
 
@@ -96,9 +99,10 @@ mini-ecommerce/
 ## How It Works
 
 ### Products
-- Products are stored in a JavaScript array
-- Each product has: id, name, category, price, rating, icon
+- 26 products stored in a JavaScript array
+- Each product has: id, name, category, price, rating, reviews, badge, image
 - Products render dynamically based on filter/search
+- Category breakdown: Electronics (8), Clothing (6), Accessories (6), Home & Living (6)
 
 ### Cart
 - Cart items stored in localStorage
@@ -111,25 +115,28 @@ mini-ecommerce/
 - Filter products by clicking category tabs
 - Combine with search for precise results
 
+### Legal Pages
+- **Privacy Policy** — Data collection, usage, and user rights
+- **Terms of Service** — Account, orders, returns, and liability
+- **Cookie Policy** — Cookie types, third-party cookies, and opt-out options
+- Accessible from the footer on all pages
+
 ## Customization
 
 ### Add Products
-Add new products to the `products` array in `script.js`:
+Add new products to the `products` array in `script.js` (IDs start at 27):
 ```javascript
-const products = [
-    {
-        id: 19,
-        name: "New Product",
-        category: "electronics",  // electronics, clothing, accessories, home
-        price: 49.99,
-        originalPrice: 69.99,  // null if no sale
-        rating: 4.5,
-        reviews: 100,
-        badge: "new",  // "new", "sale", or null
-        image: "https://images.unsplash.com/photo-..." // Unsplash image URL
-    },
-    // Add more products...
-];
+{
+    id: 27,
+    name: "New Product",
+    category: "electronics",  // electronics, clothing, accessories, home
+    price: 49.99,
+    originalPrice: 69.99,  // null if no sale is done
+    rating: 4.5,
+    reviews: 100,
+    badge: "new",  // "new", "sale", or null
+    image: "https://images.unsplash.com/photo-..." // Unsplash image URL (w=800&q=80)
+}
 ```
 
 ### Change Colors
