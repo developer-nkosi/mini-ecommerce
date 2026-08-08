@@ -60,7 +60,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Handcrafted Leather Bag",
+        name: "Handcrafted Gucci Leather Bag",
         category: "accessories",
         price: 159.99,
         originalPrice: null,
@@ -214,7 +214,7 @@ const products = [
     },
     {
         id: 18,
-        name: "Concrete Desktop Organizer",
+        name: "Simple yellow Couch",
         category: "home",
         price: 35.00,
         originalPrice: null,
@@ -302,7 +302,7 @@ const products = [
     },
     {
         id: 26,
-        name: "Woven Storage Basket",
+        name: "Silk Sofa",
         category: "home",
         price: 42.99,
         originalPrice: 54.99,

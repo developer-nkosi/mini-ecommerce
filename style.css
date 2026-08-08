@@ -490,16 +490,16 @@ nav {
 
 .product-wishlist:hover {
     background: white;
-    color: var(--danger);
+    color: var(--accent);
     transform: scale(1.1);
-    border-color: var(--danger);
-    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+    border-color: var(--accent);
+    box-shadow: 0 4px 12px rgba(54, 98, 244, 0.2);
 }
 
 .product-wishlist.active {
-    background: var(--danger);
+    background: var(--accent);
     color: white;
-    border-color: var(--danger);
+    border-color: var(--accent);
     transform: scale(1.1);
 }
 
