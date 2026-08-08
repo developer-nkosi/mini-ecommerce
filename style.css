@@ -669,6 +669,7 @@ nav {
     width: 450px;
     max-width: 100%;
     height: 100vh;
+    height: 100dvh;
     background: var(--bg-card);
     z-index: 2000;
     transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1054,6 +1055,14 @@ footer {
     .products-grid {
         grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     }
+
+    .cart-sidebar {
+        width: 380px;
+    }
+
+    .cart-footer {
+        padding: 25px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1071,6 +1080,40 @@ footer {
 
     .cart-sidebar {
         width: 100%;
+        right: -100%;
+    }
+
+    .cart-header {
+        padding: 20px;
+    }
+
+    .cart-items {
+        padding: 15px;
+    }
+
+    .cart-item {
+        gap: 12px;
+        padding: 15px 0;
+    }
+
+    .cart-item-image {
+        width: 80px;
+        height: 100px;
+    }
+
+    .cart-footer {
+        padding: 20px;
+        padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    }
+
+    .cart-total {
+        font-size: 1.1rem;
+        margin-bottom: 16px;
+    }
+
+    .btn-full {
+        padding: 16px;
+        font-size: 0.85rem;
     }
 }
 
