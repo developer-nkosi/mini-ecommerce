@@ -126,7 +126,7 @@ nav {
 .search-box {
     display: flex;
     align-items: center;
-    background: #ffffff;
+    background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 44px;
     padding: 0 16px;
@@ -187,7 +187,7 @@ nav {
     top: -5px;
     right: -5px;
     background: var(--accent);
-    color: white;
+    color: var(--bg-body);
     font-size: 0.65rem;
     font-weight: 700;
     width: 18px;
@@ -269,7 +269,7 @@ nav {
 /* Hero Section */
 .hero {
     padding: 180px 0 120px;
-    background: #ffffff;
+    background: var(--bg-body);
     color: var(--text-primary);
     text-align: center;
     position: relative;
@@ -311,7 +311,7 @@ nav {
     justify-content: center;
     gap: 10px;
     background: var(--primary);
-    color: #ffffff;
+    color: var(--bg-body);
     padding: 12px 28px;
     border-radius: 44px;
     text-decoration: none;
@@ -420,7 +420,7 @@ nav {
 .product-image {
     aspect-ratio: 1 / 1;
     height: auto;
-    background: #ffffff;
+    background: var(--bg-card);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -466,7 +466,7 @@ nav {
 
 .product-badge.new {
     background: var(--accent);
-    color: white;
+    color: var(--bg-body);
 }
 
 .product-wishlist {
@@ -599,7 +599,7 @@ nav {
 
 .product-card:hover .add-to-cart-btn {
     background: var(--primary);
-    color: #ffffff;
+    color: var(--bg-body);
 }
 
 .add-to-cart-btn:hover {
@@ -907,8 +907,8 @@ nav {
 
 /* Footer */
 footer {
-    background: var(--dark);
-    color: white;
+    background: var(--light);
+    color: var(--text-primary);
     padding: 60px 0 25px;
 }
 
@@ -925,11 +925,11 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: white;
+    color: var(--text-primary);
 }
 
 .footer-section p {
-    color: var(--gray);
+    color: var(--text-secondary);
     line-height: 1.8;
 }
 
@@ -942,14 +942,14 @@ footer {
 }
 
 .footer-section ul a {
-    color: var(--gray);
+    color: var(--text-secondary);
     text-decoration: none;
     transition: color 0.3s;
     font-weight: 500;
 }
 
 .footer-section ul a:hover {
-    color: white;
+    color: var(--text-primary);
 }
 
 .social-links {
@@ -961,14 +961,14 @@ footer {
     width: 40px;
     height: 40px;
     border-radius: 0;
-    background: rgba(255, 255, 255, 0.05);
-    color: white;
+    background: var(--bg-card);
+    color: var(--text-primary);
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     transition: all 0.3s;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--border-color);
 }
 
 .social-links a:hover {
@@ -981,8 +981,8 @@ footer {
 .footer-bottom {
     text-align: center;
     padding-top: 25px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--gray);
+    border-top: 1px solid var(--border-color);
+    color: var(--text-secondary);
     font-weight: 500;
 }
 
